@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Marco Molina | Web Developer</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+</head>
+<body>
+
+  <!-- Navigation Section -->
+    <div id="home" class="navbar-fixed">
+      <nav>
+          <div class="nav-wrapper blue-grey darken-4">
+            <a id="logo" href="/#!" class="brand-logo light">Marco Molina</a>
+            <a href="#" data-activates="mobile-side-nav" class="button-collapse right"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+    <ul class="side-nav" id="mobile-side-nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  <!-- End Navigation Section -->
+  <!-- Hero Section -->
+  <div class="parallax-container valign-wrapper">
+    <div class="container" >
+      <div class="row">
+        <div class="col l10 s12 white-text">
+          <h4 class="thin-text left-align">Hi, I'm Marco Molina.</h4>
+          <h4 class="thin-text left-align">A Web Developer in the D.C. Metro Area.</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col l4">
+          <a class="modal-trigger waves-effect btn-large red accent-2" href="#modal1">Check Out My Resume</a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/road.jpeg" alt="Road" width="100vw"></div>  
+    </div>
+  <!-- End Hero Section -->
+  <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <object data="images/MarcoMolinaResume2017.pdf" type="application/pdf" style="overflow: scroll; width: inherit; height: 100%;"></object>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        <a href="images/MarcoMolinaResume2017.pdf" download="MarcoMolinaResume2017.pdf" class="modal-action modal-close waves-effect waves-green btn-flat">Download</a>
+      </div>
+    </div>
+  <!-- End Modal Structure -->
+
+  <!-- About Me Section -->
+    <div id="about-me" class="container section">
+      <div class="row">
+        <div class="col s12 m12">
+          <h2 class="section-header">About Me</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l6">
+            <p class="about about-text">Solving problems and learning are some of my favorite things to do. That is why I started coding and have not looked back since. I also love sharing my knowledge and helping others so they too can become problem solvers of their own. </p>
+            <p class="about about-text">When not coding, I love to dance!</p>
+        </div>
+        <div class="col s12 m6 l6 center">
+            <!-- Profile Picture -->
+            <img id="profile-pic" width='90%' src="images/profile_pic.jpg" class="responsive-img z-depth-1">
+        </div>
+      </div>
+    </div>
+  <!-- End About Me Section -->
+<div class="divider"></div>
+  <!-- Skills Section -->
+    <div id="skills" class="container section">
+      <div class="section">
+        <div class="col s12 m4">
+            <div class="row">
+                <h2 class="section-header">Skills</h2>
+            </div>
+            <div class="row">
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="HTML5, CSS3, JavaScript" src="images/html5.png" width="70%" alt="HTML5, CSS3, Javascript">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="AngularJS" src="images/angularjs.png" width="70%" alt="Angular">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="MongoDB" src="images/mongodb.png" width="70%" alt="MongoDB">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Node.js" src="images/nodejs.png" width="70%" alt="Node.js">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="npm" src="images/npm.png" width="70%" alt="npm">
+              </div>
+            <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Express.js" src="images/expressjs.png" width="70%" alt="Express.js">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Django" src="images/django.png" width="70%" alt="django">
+              </div>
+            <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="JQuery" src="images/jquery.png" width="70%" alt="JQuery">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Python" src="images/python.png" width="70%" alt="Python">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="MySQL" src="images/mysql.png" width="70%" alt="mySQL">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Rails" src="images/rails.png" width="70%" alt="Rails">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ruby" src="images/ruby.png" width="70%" alt="Ruby">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="PostgreSQL" src="images/postgres.png" width="70%" alt="PostgreSQL">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Alexa Skills" src="images/alexa.png" width="70%" alt="Github">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Terminal" src="images/terminal.png" width="70%" alt="Terminal">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="MAMP" src="images/mamp.png" width="70%" alt="Mamp">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Vagrant" src="images/vagrant.png" width="70%" alt="Vagrant">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="AWS" src="images/aws.png" width="70%" alt="AWS">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="VS Code" src="images/vscode.png" width="70%" alt="VS Code">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ajax" src="images/ajax.png" width="70%" alt="Bower">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Materialize" src="images/materialize.png" width="70%" alt="Materialize">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Flask" src="images/flask.png" width="70%" alt="Flask">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="JSON" src="images/json.png" width="70%" alt="JSON">
+              </div>
+            <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Ubuntu" src="images/ubuntu.png" width="70%" alt="JSON">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Angular" src="images/angular.png" width="70%" alt="Angular">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="JQuery UI" src="images/jqueryui.png" width="70%" alt="JQuery UI">
+              </div>
+               <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="SQLite" src="images/sqlite.png" width="70%" alt="SQLite">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Bootstrap" src="images/bootstrap.png" width="70%" alt="Bootstrap">
+              </div>
+              <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Bower" src="images/bower.png" width="70%" alt="Bower">
+              </div>
+            <div class="col s4 m4 l2">
+                <img class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="TypeScript" src="images/typescript.png" width="70%" alt="TypeScript">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End Skills Section -->
+  <!-- Mid Parallax CTA -->
+  <div class="parallax-container valign-wrapper">
+    <div class="container">
+        <div class="row center-align">
+            <div class="col l10 offset-l1 valign">
+                <h3 class="white-text light">Interested in working together?</h3>
+                <a href="#contact" class="btn-large red accent-2">GET IN TOUCH</a>
+            </div>
+        </div>
+    </div>
+    <div class="parallax"><img src="images/dc.jpeg"></div>
+  </div>
+
+  <!-- Project Section -->
+  <div id="projects" class="container section">
+    <div class="section">
+      <div class="col s12 m4">
+
+        <div class="row">
+              <h2 class="section-header">Projects</h2>
+        </div>
+        <div class="row">
+          <!-- Mainstage blog -->
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="slider">
+                  <ul class="slides" style="background-color: white;">
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
+                    </li>
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
+                    </li>
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
+                    </li>
+                    <li>
+                      <img class="activator" style="background-position: initial;" src=""> 
+                    </li>
+                    <li>
+                      <img class="activator" style="background-position: initial;"  src=""> 
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Mainstage Blog<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/salazarlg24/Mainstage_blog">View on Github</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Mainstage Blog<i class="material-icons right">close</i></span>
+                <p>Simple Blog built with Ruby on Rails.
+                    After a user registers or logs in, they are taken to the blog dashboard where they can leave comments on the blog they are viewing.</p>
+              </div>
+            </div>
+          </div>
+
+           <!-- exp -->
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="slider">
+                  <ul class="slides" style="background-color: white;">
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src="">
+                    </li>
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src="">
+                    </li>
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""           >
+                    </li>
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src="">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">exp {Explore. Experience}<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/salazarlg24/exp_project">View on Github</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">exp.<i class="material-icons right">close</i></span>
+                <p>Built with JavaScript (MongoDB,Express,AngularJS,Node.js).
+                    A local event finder application. After a user has logged in or registered they are taken to a dashboard where multiple events are displayed, the user has the option to join or go to the create page to construct an event of their own. (Google Maps API integration) </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional Networking -->
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="slider">
+                  <ul class="slides" style="background-color: white;">
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
+                    </li>
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
+                    </li>
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
+                    </li>
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Professional Networking (Under Construction)<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/salazarlg24/Professional_Networking">View on Github</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Professional Networking (Under Contruction)<i class="material-icons right">close</i></span>
+                <p>Social media application allowing users to connect with other users. Built with Ruby on Rails.
+                    Similar to Linkedin, after creating a profile, a user may view other user's profile and choose to add them to their network. Any user that has requested to join your network will appear on your invitations table, you then have to option to accept or ignore it.(RESTful architecture utilized. Rails ActiveRecord applied for front-end queary logic. PostgreSQL used for database.) </p>
+              </div>
+            </div>
+          </div>
+          <!-- QuickBuy -->
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="slider">
+                  <ul class="slides" style="background-color: white;">
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
+                    </li>
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
+                    </li>
+                    <li>
+                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">QuickBuy (Under Construction)<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/salazarlg24/Mini_Store">View on Github</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">QuickBuy (Under Construction)<i class="material-icons right">close</i></span>
+                <p>Built with Javascript (MongoDB,Express,AngularJS,Node.js).
+                    An online market for users to browse, add, and buy products.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Projects Section -->
+  <!--Contact Section-->
+  <div class="blue-grey darken-3 white-text">
+  <div id="contact" class="container section"> 
+    <div class="row">
+      <div class="col s12">
+        <h2 class="section-header">Contact</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l6 center">
+        <a class=" tooltipped white-text"  data-position="bottom" data-delay="50" data-tooltip="Phone" target="_blank" href="#" onclick="return false;">
+        <i class="icon fa fa-phone-square"></i>
+        </a>
+        <h5 class="contact-text">(305) 905-1494</h5>
+      </div>
+      <div class="col s12 m6 l6 center">
+         <a class="tooltipped white-text"  data-position="bottom" data-delay="50" data-tooltip="Email" target="_blank" href="#" onclick="return false;">
+        <i class="icon fa fa-envelope-square"></i>
+         </a>
+        <h5 class="contact-text">marcomolina11@gmail.com</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l6 center">
+        <a class="tooltipped white-text"  data-position="bottom" data-delay="50" data-tooltip="GitHub" target="_blank" href="https://www.github.com/marcomolina11/">
+        <i class="icon fa fa-github-square"></i>
+        </a>
+        <h5 class="contact-text">marcomolina11</h5>
+      </div>
+      <div class="col s12 m6 l6 center">
+        <a class="tooltipped white-text"  data-position="bottom" data-delay="50" data-tooltip="LinkedIn" target="_blank" href="https://www.linkedin.com/in/marcomolina11/">
+        <i class="icon fa fa-linkedin-square"></i>
+        </a>
+        <h5 class="contact-text">in/marcomolina11</h5>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- End Connect Section -->
+
+  <!-- Footer Section-->
+    <div class="footer-copyright blue-grey darken-4">
+      <div class="container footer-container">
+        <p class="white-text text-lighten-4 thin-text">&copy; 2017 Copyright Marco Molina</p>
+      </div>
+    </div>
+  <!--End Footer Section-->
+
+  <!-- Back-to-top Action Btn -->
+  <div class="fixed-action-btn">   
+      <a class="back-to-top btn-floating btn-large waves-effect waves-light red accent-2" href="#home">
+        <i class="material-icons">keyboard_arrow_up</i>
+      </a>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

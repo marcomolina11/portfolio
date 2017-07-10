@@ -8,11 +8,9 @@ var express     = require('express'),
 
 process.env['APPROOT'] = __dirname;
 
-app.use(bodyParser.json());
-app.use(express.static(path.join(process.env['APPROOT'], './client')));
-app.use(express.static(path.join(process.env['APPROOT'], './bower_components')));
-app.use(express.static(path.join(process.env['APPROOT'], './views')));
-app.set("views", path.join(__dirname, "./views"));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static(path.join(process.env['APPROOT'], './client/static')));
+app.set("views", path.join(process.env['APPROOT'], "./client/views"));
 app.set("view engine", "ejs");
 
 // DATABASE

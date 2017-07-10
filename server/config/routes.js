@@ -3,9 +3,9 @@
 // var answers = require('../controllers/answers.js');
 
 module.exports = function(app){
-    // app.get("/pacman", function(req, res){
-    //     res.render("pacman");
-    // });
+    app.get("/", function(req, res){
+        res.render("index");
+    });
     // app.post('/login', (req, res)=>{
     // console.log('inside login route')
     // users.login(req, res)
