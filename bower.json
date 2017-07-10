@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Marco Molina <marcomolina11@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
