@@ -38,6 +38,15 @@
 .contact-text{
   font-weight: lighter;
   font-size: 22px;
+  color: white;
+}
+.contact-text-clickable{
+  font-weight: lighter;
+  font-size: 22px;
+  color: white;
+}
+.contact-text-clickable:hover{
+  border-bottom: 1px solid white;
 }
 .about-text{
   font-weight: 300;
@@ -70,4 +79,7 @@
 .project-link{
   padding: 15px 0px;
   text-transform: uppercase;
+}
+.icon-link:hover{
+  cursor: default;
 }
