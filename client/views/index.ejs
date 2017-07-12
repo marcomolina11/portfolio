@@ -17,29 +17,40 @@
     
 </head>
 <body>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <object data="images/MarcoMolinaResume2017.pdf" type="application/pdf" style="overflow: scroll; width: inherit; height: 100%;"></object>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        <a href="images/MarcoMolinaResume2017.pdf" download="MarcoMolinaResume2017.pdf" class="modal-action modal-close waves-effect waves-green btn-flat">Download</a>
+      </div>
+    </div>
+  <!-- End Modal Structure -->
 
   <!-- Navigation Section -->
     <div id="home" class="navbar-fixed">
       <nav>
-          <div class="nav-wrapper blue-grey darken-4">
+          <div class="nav-wrapper primary-color">
             <a id="logo" href="/#!" class="brand-logo light">Marco Molina</a>
             <a href="#" data-activates="mobile-side-nav" class="button-collapse right"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about-me">About Me</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class="hover-highlight"><a href="#home">Home</a></li>
+              <li class="hover-highlight"><a href="#about-me">About Me</a></li>
+              <li class="hover-highlight"><a href="#skills">Skills</a></li>
+              <li class="hover-highlight"><a href="#projects">Projects</a></li>
+              <li class="hover-highlight"><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </nav>
     </div>
     <ul class="side-nav" id="mobile-side-nav">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about-me">About Me</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li class="hover-highlight"><a class="side-nav-link" href="#home">Home</a></li>
+      <li class="hover-highlight"><a class="side-nav-link" href="#about-me">About Me</a></li>
+      <li class="hover-highlight"><a class="side-nav-link" href="#skills">Skills</a></li>
+      <li class="hover-highlight"><a class="side-nav-link" href="#projects">Projects</a></li>
+      <li class="hover-highlight"><a class="side-nav-link" href="#contact">Contact</a></li>
     </ul>
   <!-- End Navigation Section -->
   <!-- Hero Section -->
@@ -53,24 +64,13 @@
       </div>
       <div class="row">
         <div class="col l4">
-          <a class="modal-trigger waves-effect btn-large red accent-2" href="#modal1">Check Out My Resume</a>
+          <a class="modal-trigger waves-effect btn-large pink lighten-2" href="#modal1">Check Out My Resume</a>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="images/road.jpeg" alt="Road" width="100vw"></div>  
     </div>
   <!-- End Hero Section -->
-  <!-- Modal Structure -->
-    <div id="modal1" class="modal modal-fixed-footer">
-      <div class="modal-content">
-        <object data="images/MarcoMolinaResume2017.pdf" type="application/pdf" style="overflow: scroll; width: inherit; height: 100%;"></object>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-        <a href="images/MarcoMolinaResume2017.pdf" download="MarcoMolinaResume2017.pdf" class="modal-action modal-close waves-effect waves-green btn-flat">Download</a>
-      </div>
-    </div>
-  <!-- End Modal Structure -->
 
   <!-- About Me Section -->
     <div id="about-me" class="container section">
@@ -217,11 +217,11 @@
         <div class="row center-align">
             <div class="col l10 offset-l1 valign">
                 <h3 class="white-text light">Interested in working together?</h3>
-                <a href="#contact" class="btn-large red accent-2">GET IN TOUCH</a>
+                <a href="#contact" class="btn-large pink lighten-2">Get in touch</a>
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="images/dc.jpeg"></div>
+    <div class="parallax"><img src="images/keyboard.jpeg"></div>
   </div>
 
   <!-- Project Section -->
@@ -233,145 +233,58 @@
               <h2 class="section-header">Projects</h2>
         </div>
         <div class="row">
-          <!-- Mainstage blog -->
+          <!-- Adanote -->
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <div class="slider">
-                  <ul class="slides" style="background-color: white;">
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
-                    </li>
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
-                    </li>
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
-                    </li>
-                    <li>
-                      <img class="activator" style="background-position: initial;" src=""> 
-                    </li>
-                    <li>
-                      <img class="activator" style="background-position: initial;"  src=""> 
-                    </li>
-                  </ul>
-                </div>
+                <img class="activator" src="images/music.jpg">
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Mainstage Blog<i class="material-icons right">more_vert</i></span>
-                <p><a href="https://github.com/salazarlg24/Mainstage_blog">View on Github</a></p>
+                <span class="card-title activator grey-text text-darken-4">Adanote<i class="material-icons right">more_vert</i></span>
+                <p><a class="secondary-color-text" href="https://github.com/marcomolina11/adaNote">View on Github</a></p>
+              </div>
+              <div class="divider"></div>
+              <div class="center project-link">
+                <a class="grey-text text-darken-4" href="http://marcomolina.net">Check it out</a>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Mainstage Blog<i class="material-icons right">close</i></span>
-                <p>Simple Blog built with Ruby on Rails.
-                    After a user registers or logs in, they are taken to the blog dashboard where they can leave comments on the blog they are viewing.</p>
+                <span class="card-title grey-text text-darken-4">Adanote<i class="material-icons right">close</i></span>
+                <p>Solely developed web app that allows you to create notes to stay organized. Sign up to easily create post-it-style notes. Rearrange notes by simply dragging and dropping. Edit them effortlessly by clicking the field you want to edit, editing the content, and hitting enter. Features were built using AJAX meaning there is no need to refresh to make changes. This makes the app feel quick and responsive.</p>
+                <p>Built with: Python, Django, JavaScript, JQuery, JQueryUI, AJAX, HTML5, CSS3 </p>
               </div>
             </div>
           </div>
+          <!--End Adanote-->
 
-           <!-- exp -->
+           <!-- Second Project -->
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <div class="slider">
-                  <ul class="slides" style="background-color: white;">
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src="">
-                    </li>
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src="">
-                    </li>
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""           >
-                    </li>
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src="">
-                    </li>
-                  </ul>
-                </div>
+                <img class="activator" src="images/running.jpg">
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">exp {Explore. Experience}<i class="material-icons right">more_vert</i></span>
-                <p><a href="https://github.com/salazarlg24/exp_project">View on Github</a></p>
+                <span class="card-title activator grey-text text-darken-4">Second Project<i class="material-icons right">more_vert</i></span>
+                <p><a class="secondary-color-text" href="https://github.com/marcomolina11/second-project">View on Github</a></p>
+              </div>
+              <div class="divider"></div>
+              <div class="center project-link">              
+                <a class="grey-text text-darken-4" href="http://google.com">Check it out</a>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">exp.<i class="material-icons right">close</i></span>
-                <p>Built with JavaScript (MongoDB,Express,AngularJS,Node.js).
-                    A local event finder application. After a user has logged in or registered they are taken to a dashboard where multiple events are displayed, the user has the option to join or go to the create page to construct an event of their own. (Google Maps API integration) </p>
+                <span class="card-title grey-text text-darken-4">Second Project<i class="material-icons right">close</i></span>
+                <p>Simple Blog built with Ruby on Rails. After a user registers or logs in, they are taken to the blog dashboard where they can leave comments on the blog they are viewing.</p>
+                <p>Built with: Python, Django, JavaScript, JQuery, JQueryUI, AJAX, HTML5, CSS3 </p>
               </div>
             </div>
           </div>
         </div>
-
-        <!-- Professional Networking -->
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <div class="slider">
-                  <ul class="slides" style="background-color: white;">
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
-                    </li>
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
-                    </li>
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
-                    </li>
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Professional Networking (Under Construction)<i class="material-icons right">more_vert</i></span>
-                <p><a href="https://github.com/salazarlg24/Professional_Networking">View on Github</a></p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Professional Networking (Under Contruction)<i class="material-icons right">close</i></span>
-                <p>Social media application allowing users to connect with other users. Built with Ruby on Rails.
-                    Similar to Linkedin, after creating a profile, a user may view other user's profile and choose to add them to their network. Any user that has requested to join your network will appear on your invitations table, you then have to option to accept or ignore it.(RESTful architecture utilized. Rails ActiveRecord applied for front-end queary logic. PostgreSQL used for database.) </p>
-              </div>
-            </div>
-          </div>
-          <!-- QuickBuy -->
-          <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <div class="slider">
-                  <ul class="slides" style="background-color: white;">
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
-                    </li>
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
-                    </li>
-                    <li>
-                      <img class="activator" style="background-repeat: no-repeat; width: 100%; background-size: 100%; background-position: 50% 50%;" src=""> 
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">QuickBuy (Under Construction)<i class="material-icons right">more_vert</i></span>
-                <p><a href="https://github.com/salazarlg24/Mini_Store">View on Github</a></p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">QuickBuy (Under Construction)<i class="material-icons right">close</i></span>
-                <p>Built with Javascript (MongoDB,Express,AngularJS,Node.js).
-                    An online market for users to browse, add, and buy products.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </div>
   <!-- End Projects Section -->
   <!--Contact Section-->
-  <div class="blue-grey darken-3 white-text">
+  <div class="primary-color-light white-text">
   <div id="contact" class="container section"> 
     <div class="row">
       <div class="col s12">
@@ -380,28 +293,28 @@
     </div>
     <div class="row">
       <div class="col s12 m6 l6 center">
-        <a class=" tooltipped white-text"  data-position="bottom" data-delay="50" data-tooltip="Phone" target="_blank" href="#" onclick="return false;">
-        <i class="icon fa fa-phone-square"></i>
+        <a class=" tooltipped white-text icon-link"  data-position="bottom" data-delay="50" data-tooltip="Phone" target="_blank" href="#" onclick="return false;">
+        <i class="icon fa fa-phone-square pink-text text-lighten-2"></i>
         </a>
         <h5 class="contact-text">(305) 905-1494</h5>
       </div>
       <div class="col s12 m6 l6 center">
-         <a class="tooltipped white-text"  data-position="bottom" data-delay="50" data-tooltip="Email" target="_blank" href="#" onclick="return false;">
-        <i class="icon fa fa-envelope-square"></i>
+         <a class="tooltipped white-text icon-link"  data-position="bottom" data-delay="50" data-tooltip="Email" target="_blank" href="#" onclick="return false;">
+        <i class="icon fa fa-envelope-square pink-text text-lighten-2"></i>
          </a>
         <h5 class="contact-text">marcomolina11@gmail.com</h5>
       </div>
     </div>
     <div class="row">
       <div class="col s12 m6 l6 center">
-        <a class="tooltipped white-text"  data-position="bottom" data-delay="50" data-tooltip="GitHub" target="_blank" href="https://www.github.com/marcomolina11/">
-        <i class="icon fa fa-github-square"></i>
+        <a class="tooltipped white-text icon-link"  data-position="bottom" data-delay="50" data-tooltip="GitHub" target="_blank" href="https://www.github.com/marcomolina11/">
+        <i class="icon fa fa-github-square pink-text text-lighten-2"></i>
         </a>
         <h5 class="contact-text">marcomolina11</h5>
       </div>
       <div class="col s12 m6 l6 center">
-        <a class="tooltipped white-text"  data-position="bottom" data-delay="50" data-tooltip="LinkedIn" target="_blank" href="https://www.linkedin.com/in/marcomolina11/">
-        <i class="icon fa fa-linkedin-square"></i>
+        <a class="tooltipped white-text icon-link"  data-position="bottom" data-delay="50" data-tooltip="LinkedIn" target="_blank" href="https://www.linkedin.com/in/marcomolina11/">
+        <i class="icon fa fa-linkedin-square pink-text text-lighten-2 " ></i>
         </a>
         <h5 class="contact-text">in/marcomolina11</h5>
       </div>
@@ -411,7 +324,7 @@
   <!-- End Connect Section -->
 
   <!-- Footer Section-->
-    <div class="footer-copyright blue-grey darken-4">
+    <div class="footer-copyright primary-color">
       <div class="container footer-container">
         <p class="white-text text-lighten-4 thin-text">&copy; 2017 Copyright Marco Molina</p>
       </div>
@@ -420,7 +333,7 @@
 
   <!-- Back-to-top Action Btn -->
   <div class="fixed-action-btn">   
-      <a class="back-to-top btn-floating btn-large waves-effect waves-light red accent-2" href="#home">
+      <a class="btn-floating btn-large waves-effect waves-light pink lighten-2" href="#home">
         <i class="material-icons">keyboard_arrow_up</i>
       </a>
   </div>

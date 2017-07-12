@@ -8,7 +8,7 @@ $(document).ready(function(){
     });
     $('.modal').modal();
     $('.button-collapse').sideNav({
-        menuWidth: 200, // Default is 300
+        menuWidth: 250, // Default is 300
         edge: 'right', // Choose the horizontal origin
         closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
         draggable: true // Choose whether you can drag to open on touch screens
@@ -41,6 +41,8 @@ $(document).ready(function(){
     //         }
     //     });
     // }
+
+    // Image Animation //
     var options = [
         {selector: '#profile-pic', offset: 200, callback: function(el) {
             Materialize.fadeInImage($(el));
@@ -48,6 +50,32 @@ $(document).ready(function(){
     ];
     Materialize.scrollFire(options);
 
+    // Project Links //
+    $('.project-link').hover(
+        function(){
+            $(this).children().removeClass('grey-text text-darken-4');
+            $(this).children().addClass('white-text');
+            $(this).addClass('secondary-color');
+            $(this).css("cursor", "pointer");
+        }, 
+        function(){
+            $(this).children().removeClass('white-text');
+            $(this).children().addClass('grey-text text-darken-4');
+            $(this).removeClass('secondary-color');
+    });
 
+    $('.project-link').click(function(){
+            var url = $(this).children().attr("href");
+            window.location = url;
+    });
+
+    // Card Animation //
+    $('.card').hover(
+        function(){
+            $(this).addClass('z-depth-4');
+        },
+        function(){
+            $(this).removeClass('z-depth-4');
+        })
 
 });

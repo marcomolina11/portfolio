@@ -1,79 +1,14 @@
-.main-color{
-	background-color: #333;
+.primary-color{
+	background-color: #263238;
 }
-.iris {
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: 100%;
-    background-position: 50% 50%;
-
+.primary-color-light{
+  background-color: #455a64;
 }
-.btn.social > :first-child,
-.btn-large.social > :first-child,
-.col.social > :first-child {
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
+.secondary-color{
+	background-color: #f06292;  
 }
-.btn.social,
-.btn-large.social,
-.col.social {
-  padding: 0 0rem 0 0;
-}
-.btn.social i,
-.btn-large.social i,
-.col.social i {
-  padding: 0 1rem;
-  margin-right: 1rem;
-}
-.btn.social-icon,
-.btn-large.social-icon,
-.col.social-icon {
-  padding: 0;
-}
-.btn.social-icon i,
-.btn-large.social-icon i,
-.col.social-icon i {
-  padding: 0 1rem;
-  margin-right: 0;
-}
-.btn-large.social-icon {
-  padding: 0 1rem;
-}
-.col.social {
-  width: 100%;
-  text-align: left;
-}
-.col.social i.fa-fw {
-  width: 3.2rem;
-}
-.github {
-  background-color: #444444;
-  color: #fff !important;
-}
-.github i {
-  color: #fff !important;
-}
-.github:hover {
-  background-color: #5e5e5e !important;
-}
-.google {
-  background-color: #dd4b39;
-  color: #fff !important;
-}
-.google i {
-  color: #fff !important;
-}
-.google:hover {
-  background-color: #e47365 !important;
-}
-.linkedin {
-  background-color: #007bb6;
-  color: #fff !important;
-}
-.linkedin i {
-  color: #fff !important;
-}
-.linkedin:hover {
-  background-color: #009de9 !important;
+.secondary-color-text{
+	color: #f06292;  
 }
 .thin-text{
     font-weight: lighter;
@@ -96,9 +31,6 @@
 #profile-pic{
   opacity: 0;
 }
-.visible{
-  visibility: visible;
-}
 .about{
   padding-top: 0px;
   margin-top: 0px;
@@ -113,4 +45,29 @@
 }
 .icon{
   font-size: 54px;
+}
+.custom-text{
+ color: black;
+ opacity: 0.5;
+}
+.icon-link{
+  border-radius: 10px;
+  background: white;
+  padding-top: 26px;
+}
+.hover-highlight:hover{
+  background-color: #f06292;
+  cursor: pointer;
+}
+.side-nav-link:hover{
+  color: white;
+}
+.my-image{
+  background-image: url("/images/adanote-home.png");
+  width: 400px;
+  height: 400px;
+}
+.project-link{
+  padding: 15px 0px;
+  text-transform: uppercase;
 }
