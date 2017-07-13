@@ -83,3 +83,6 @@
 .icon-link:hover{
   cursor: default;
 }
+.full-screen{
+  height: 93vh;
+}
