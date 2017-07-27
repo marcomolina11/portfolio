@@ -124,7 +124,7 @@
 #myNav{
   height: 80px;
   transition: all 0.7s;
-  background-color: transparent;
+  background-color:  #263238;
 }
 #logo{
   position: relative !important;
@@ -138,6 +138,15 @@
 #back-up{
   transition: all 0.5s;
 }
-.about-header, .skills-header, .tech-logos, .row-1, .row-2, .row-3, .row-4, .row-5, .projects-header, .card-1, .card-2, .contact-header, .contact-row-1, .contact-row-2{
+.about-header, .skills-header, .tech-logos, [class*="row-"], .projects-header, .card-1, .card-2, .contact-header, .contact-row-1, .contact-row-2{
   opacity: 0;
 }
+
+/* For desktop: */
+@media only screen and (min-width: 993px) {  
+    #myNav{
+      height: 80px;
+      transition: all 0.7s;
+      background-color: transparent;
+    }
+} 

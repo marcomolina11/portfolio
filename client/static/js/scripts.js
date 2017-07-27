@@ -98,7 +98,9 @@ $(document).ready(function(){
         var top = document.getElementById('myNav');
         var logo = document.getElementById('logo');
         var fab = document.getElementById('back-up');
+        var width = window.innerWidth;
         var ypos = window.pageYOffset;
+        console.log(width);
         if(ypos > 40){
             top.style.height = "55px";
             top.style.backgroundColor = "#263238";
@@ -108,10 +110,12 @@ $(document).ready(function(){
         }
         else{
             top.style.height = "80px";
-            top.style.backgroundColor = "transparent";
             logo.style.fontSize = "32px";
             fab.style.opacity = 0;
             top.classList.add("z-depth-0");
+            if (width > 992){
+                top.style.backgroundColor = "transparent";
+            }
         }
     }
 
