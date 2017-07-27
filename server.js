@@ -10,6 +10,7 @@ process.env['APPROOT'] = __dirname;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(process.env['APPROOT'], './client/static')));
+app.use(express.static(path.join(process.env['APPROOT'], './bower_components')));
 app.set("views", path.join(process.env['APPROOT'], "./client/views"));
 app.set("view engine", "ejs");
 

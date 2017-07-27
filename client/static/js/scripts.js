@@ -42,13 +42,81 @@ $(document).ready(function(){
     //     });
     // }
 
-    // Image Animation //
+    // Content Animations //
     var options = [
         {selector: '#profile-pic', offset: 200, callback: function(el) {
-            Materialize.fadeInImage($(el));
+            $(el).addClass('animated fadeInRight');
         }},
+        {selector: '.about-header', offset: 50, callback: function(el){
+            $('.about-header').addClass('animated fadeIn');
+        }},
+        {selector: '.about-text', offset: 200, callback: function(el){
+            $('.about-text').addClass('animated fadeInLeft');
+        }},
+        {selector: '.skills-header', offset: 50, callback: function(el){
+            $('.skills-header').addClass('animated fadeIn');
+        }},
+        {selector: '.row-1', offset: 100, callback: function(el){
+            $('.row-1').addClass('animated fadeIn');
+        }},
+        {selector: '.row-2', offset: 100, callback: function(el){
+            $('.row-2').addClass('animated fadeIn');
+        }},
+        {selector: '.row-3', offset: 100, callback: function(el){
+            $('.row-3').addClass('animated fadeIn');
+        }},
+        {selector: '.row-4', offset: 100, callback: function(el){
+            $('.row-4').addClass('animated fadeIn');
+        }},
+        {selector: '.row-5', offset: 100, callback: function(el){
+            $('.row-5').addClass('animated fadeIn');
+        }},
+        {selector: '.projects-header', offset: 50, callback: function(el){
+            $('.projects-header').addClass('animated fadeIn');
+        }},
+        {selector: '.card-1', offset: 275, callback: function(el){
+            $('.card-1').addClass('animated fadeInLeft');
+        }},
+        {selector: '.card-2', offset: 275, callback: function(el){
+            $('.card-2').addClass('animated fadeInRight');
+        }},
+        {selector: '.contact-header', offset: 50, callback: function(el){
+            $('.contact-header').addClass('animated fadeIn');
+        }},
+        {selector: '.contact-row-1', offset: 50, callback: function(el){
+            $('.contact-row-1').addClass('animated fadeIn');
+        }},
+        {selector: '.contact-row-2', offset: 50, callback: function(el){
+            $('.contact-row-2').addClass('animated fadeIn');
+        }},
+
     ];
     Materialize.scrollFire(options);
+
+    // Navbar/FAB anomations //
+    function Scroll(){
+        var top = document.getElementById('myNav');
+        var logo = document.getElementById('logo');
+        var fab = document.getElementById('back-up');
+        var ypos = window.pageYOffset;
+        if(ypos > 40){
+            top.style.height = "55px";
+            top.style.backgroundColor = "#263238";
+            logo.style.fontSize = "28px";
+            fab.style.opacity = 1;
+            top.classList.remove("z-depth-0");
+        }
+        else{
+            top.style.height = "80px";
+            top.style.backgroundColor = "transparent";
+            logo.style.fontSize = "32px";
+            fab.style.opacity = 0;
+            top.classList.add("z-depth-0");
+        }
+    }
+
+    window.addEventListener("scroll", Scroll);
+
 
     // Project Links //
     $('.project-link').hover(
@@ -69,8 +137,12 @@ $(document).ready(function(){
             window.location = url;
     });
 
+    $(document).on('mouseover', '.btn-large', function(){
+        $(this).addClass('black');
+    })
+
     // Card Animation //
-    $('.card').hover(
+    $('#back-up').hover(
         function(){
             $(this).addClass('z-depth-4');
         },

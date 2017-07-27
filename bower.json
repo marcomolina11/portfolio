@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Marco Molina <marcomolina11@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/marcomolina11/portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "materialize": "^0.100.1"
+  }
+}

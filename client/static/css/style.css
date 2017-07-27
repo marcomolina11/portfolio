@@ -1,14 +1,17 @@
 .primary-color{
-	background-color: #263238;
+	background-color: #263238 !important;
 }
 .primary-color-light{
-  background-color: #455a64;
+  background-color: #455a64 !important;
 }
 .secondary-color{
-	background-color: #f06292;  
+	background-color: #f06292 !important;  
 }
 .secondary-color-text{
-	color: #f06292;  
+	color: #f06292 !important;  
+}
+.btn-large:hover{
+  background-color: #f06292 !important;
 }
 .thin-text{
     font-weight: lighter;
@@ -62,14 +65,17 @@
 .icon-link{
   border-radius: 10px;
   background: white;
-  padding-top: 26px;
+  padding-top: 24px;
 }
 .hover-highlight:hover{
-  background-color: #f06292;
+  background-color: transparent !important;
+  color: #f06292 !important;
   cursor: pointer;
 }
 .side-nav-link:hover{
-  color: white;
+  color: #f06292 !important;
+  background-color: transparent !important;
+  cursor: pointer;
 }
 .my-image{
   background-image: url("/images/adanote-home.png");
@@ -83,6 +89,55 @@
 .icon-link:hover{
   cursor: default;
 }
+.special{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 .full-screen{
-  height: 93vh;
+  height: 100vh;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+#magic{
+  width: 400px;
+}
+.modal-content { 
+  overflow-y: hidden !important;
+  height: 100% !important;
+}
+.modal{
+  max-height: 100%;
+}
+.modal.modal-fixed-footer{
+  max-height: 100%;
+  height: 80vh;
+}
+#resume{
+  height: 100% !important;
+  width: 100% !important;
+}
+.hidden{
+  opacity: 0;
+}
+#myNav{
+  height: 80px;
+  transition: all 0.7s;
+  background-color: transparent;
+}
+#logo{
+  position: relative !important;
+  font-size: 32px;
+  transition: all 0.7s;
+}
+#myNavWrapper{
+  display: flex;
+  justify-content: space-between !important;
+}
+#back-up{
+  transition: all 0.5s;
+}
+.about-header, .skills-header, .tech-logos, .row-1, .row-2, .row-3, .row-4, .row-5, .projects-header, .card-1, .card-2, .contact-header, .contact-row-1, .contact-row-2{
+  opacity: 0;
 }
