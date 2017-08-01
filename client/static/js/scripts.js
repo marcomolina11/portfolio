@@ -71,6 +71,12 @@ $(document).ready(function(){
         {selector: '.row-5', offset: 100, callback: function(el){
             $('.row-5').addClass('animated fadeIn');
         }},
+        {selector: '.cta', offset: 60, callback: function(el){
+            $('.cta').addClass('animated fadeIn');
+        }},
+        {selector: '.cta-btn', offset: 80, callback: function(el){
+            $('.cta-btn').addClass('animated fadeIn');
+        }},
         {selector: '.projects-header', offset: 50, callback: function(el){
             $('.projects-header').addClass('animated fadeIn');
         }},
@@ -89,7 +95,9 @@ $(document).ready(function(){
         {selector: '.contact-row-2', offset: 50, callback: function(el){
             $('.contact-row-2').addClass('animated fadeIn');
         }},
-
+        {selector: '.contact-row-2', offset: 170, callback: function(el){
+            $('.copyright').addClass('animated fadeIn');
+        }},
     ];
     Materialize.scrollFire(options);
 
