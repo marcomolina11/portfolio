@@ -87,7 +87,7 @@
   text-transform: uppercase;
 }
 .icon-link:hover{
-  cursor: default;
+  cursor: pointer;
 }
 .special{
   position: absolute;
