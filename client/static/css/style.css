@@ -16,9 +16,6 @@ body{
 .btn-large:hover{
   background-color: #f06292 !important;
 }
-.thin-text{
-    font-weight: lighter;
-}
 .footer-header{
     font-weight: 300;
 }
